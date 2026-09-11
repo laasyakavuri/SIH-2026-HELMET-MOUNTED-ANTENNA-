@@ -6,7 +6,7 @@ main-ESP32 firmware (LCD/buzzer/SOS button), and AI-Thinker ESP32-CAM firmware
 (MJPEG CCTV). Location comes from PHONE GPS (never a NEO-6M GPS module).
 
 ## Architecture
-PHONE GPS -> LocationProvider -> FIREBASE -> GROUND STATION LIVE MAP
+GPS module -> LocationProvider -> FIREBASE -> GROUND STATION LIVE MAP
 AI-THINKER ESP32-CAM -> Wi-Fi HTTP/MJPEG -> GROUND STATION CCTV
 MAIN ESP32 (SOS button / LCD / buzzer) <-> FIREBASE <-> GROUND STATION
 ESP32 SOS -> FIREBASE -> GROUND STATION ALERT
